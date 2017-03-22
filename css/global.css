@@ -1,0 +1,177 @@
+/*unit*/
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+/*common*/
+body {
+  min-width: 1003px;
+  max-width: 100%;
+  font-size: 14px;
+  color: #707070;
+}
+.body {
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  border-top: 1px solid #eee;
+  background: url(../images/bg_body.png) center top repeat-y;
+}
+.block {
+  margin: 0 auto;
+}
+.show {
+  transform: translateY(0) !important;
+  -webkit-transform: translateY(0) !important;
+}
+.header {
+  position: relative;
+  transform: translateY(-100px);
+  -webkit-transform: translateY(-100px);
+  transition: all 1s ease-out 0s;
+  -webkit-transition: all 1s ease-out 0s;
+  z-index: 2;
+}
+.header .block {
+  position: relative;
+  height: 90px;
+}
+.header .logo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(../images/logo.png) center center no-repeat;
+  width: 190px;
+  height: 100%;
+}
+.header .nav_main {
+  position: absolute;
+  left: 270px;
+  top: 40px;
+}
+.header .nav_main a {
+  color: #333;
+  margin-right: 60px;
+}
+.header .nav_main a:hover {
+  color: #ca231c;
+}
+.header .nav_main a.current {
+  color: #ca231c;
+}
+.header .tools {
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+.header .tools a {
+  float: left;
+  overflow: hidden;
+  height: 16px;
+  line-height: 16px;
+  width: 24px;
+  margin-right: 10px;
+  transition: width 0.3s ease-out 0s;
+  -webkit-transition: width 0.3s ease-out 0s;
+}
+.header .tools a:hover {
+  width: 90px;
+}
+.header .tools a i {
+  float: left;
+  width: 24px;
+  height: 100%;
+  margin-right: 5px;
+}
+.header .tools .tools_contact_us i {
+  background: url(../images/icon1.png) 5px 0 no-repeat;
+}
+.header .tools .tools_contact_us:hover i {
+  background-position: 5px -16px;
+}
+.header .tools .tools_career i {
+  background: url(../images/icon1.png) -34px 0 no-repeat;
+}
+.header .tools .tools_career:hover i {
+  background-position: -34px -16px;
+}
+.header .tools .tools_news i {
+  background: url(../images/icon1.png) -70px 0 no-repeat;
+}
+.header .tools .tools_news:hover i {
+  background-position: -70px -16px;
+}
+.header .tools .tools_books i {
+  background: url(../images/icon1.png) -107px 0 no-repeat;
+}
+.header .tools .tools_books:hover i {
+  background-position: -107px -16px;
+}
+.header .tools .tools_search {
+  background: url(../images/icon1.png) -132px 0 no-repeat;
+  width: 40px;
+  border-left: 1px solid #ccc;
+  padding: 0;
+  margin: 0;
+}
+.header .tools .tools_search:hover {
+  background-position: -132px -16px;
+  width: 40px;
+}
+.header .tools .tools_global {
+  background: url(../images/icon1.png) -164px 0 no-repeat;
+  width: 55px;
+  border-left: 1px solid #ccc;
+  padding: 0;
+  margin: 0;
+}
+.header .tools .tools_global:hover {
+  background-position: -164px -16px;
+  width: 55px;
+}
+.footer .block_footer {
+  padding: 60px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.footer .nav_footer {
+  float: left;
+}
+.footer .nav_footer ul {
+  float: left;
+  padding-right: 60px;
+  font-size: 12px;
+}
+.footer .nav_footer ul li {
+  margin-bottom: 5px;
+}
+.footer .nav_footer ul h3 {
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.footer .bottom {
+  font-size: 12px;
+  height: 58px;
+  line-height: 58px;
+}
+.gotop {
+  float: right;
+  padding-right: 40px;
+  height: 32px;
+  line-height: 30px;
+  font-size: 14px;
+  color: #474747;
+  background: url(../images/ico_top.png) right top no-repeat;
+}

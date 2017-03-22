@@ -1,0 +1,133 @@
+@media screen and (min-width: 1280px) and (max-width: 1810px) {
+  .block {
+    width: 1250px;
+    margin: 0 auto;
+  }
+  #exhibition .block {
+    height: 456px;
+  }
+  #exhibition .item-m1 {
+    width: 615px;
+    height: 452px;
+  }
+  #exhibition .item-m2 {
+    width: 615px;
+    height: 221px;
+    left: 0;
+  }
+  #exhibition .item-m3 {
+    width: 302px;
+    height: 221px;
+    left: 0;
+    top: 231px;
+  }
+  #exhibition .item-m4 {
+    width: 302px;
+    height: 221px;
+    left: 313px;
+    top: 231px;
+  }
+}
+#books .boxer {
+  width: 240px;
+  margin: 0 5px 20px;
+}
+#books .boxer .pic {
+  height: 182px;
+}
+#books .boxer h3 {
+  line-height: 40px;
+}
+#books .boxer .mask {
+  height: 182px;
+}
+#books .boxer .mask img {
+  margin-top: 30px;
+  width: 120px;
+}
+.mybusiness-sec3 {
+  padding: 50px 0;
+}
+@media screen and (min-width: 641px) and (max-width: 1278px) {
+  .block {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .header .block_header {
+    width: 960px;
+    margin: 0 auto;
+  }
+  .footer .block_footer,
+  .footer .block_bottom {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 640px) {
+  html,
+  body,
+  div,
+  span,
+  iframe,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  a,
+  address,
+  big,
+  cite,
+  code,
+  del,
+  em,
+  font,
+  img,
+  ins,
+  small,
+  strong,
+  var,
+  b,
+  u,
+  i,
+  center,
+  dl,
+  dt,
+  dd,
+  ol,
+  ul,
+  li,
+  fieldset,
+  form,
+  label,
+  legend,
+  input,
+  textarea,
+  select {
+    box-sizing: border-box;
+  }
+  input,
+  textarea,
+  select,
+  button {
+    -webkit-appearance: none;
+  }
+  .block {
+    width: auto;
+  }
+}
+@media screen and (min-width: 1810px) {
+  .block {
+    width: 1250px;
+    margin: 0 auto;
+  }
+  .footer .block_footer,
+  .footer .block_bottom {
+    width: 1250px;
+    margin: 0 auto;
+  }
+}
